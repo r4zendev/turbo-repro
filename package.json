@@ -1,0 +1,24 @@
+{
+  "name": "repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev --turbo",
+    "devv": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.0.12",
+    "next": "14.0.5-canary.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "resend": "^2.0.0"
+  },
+  "packageManager": "pnpm@8.7.5",
+  "devDependencies": {
+    "@types/react": "18.2.48",
+    "typescript": "^5.3.3"
+  }
+}
